@@ -1,0 +1,118 @@
+
+#h{
+    margin-top: 75px;
+}
+
+#bu{
+    margin-left:  10px;
+    justify-content: center;
+}
+#bu2{
+    margin-left:  10px;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#img1{
+    margin-top: 25px;
+}
+
+#inbox{
+    font-size: 20px;
+    
+    
+}
+
+#imgfoot{
+    margin-right: 10px;
+}
+
+#pro1{
+    justify-items: center;
+    margin-top: 70px;
+    
+}
+
+.head{
+    display: flex;
+    background-color: salmon;
+    flex-direction: column;
+    color: whitesmoke;
+    height: 200px;
+    text-align: center;
+}
+
+.under{
+    display: flex;
+    background-color: black;
+    height: 70px;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.buttom{
+    background-color: black;
+    color: aliceblue;
+    font-size: 20px;
+    transition-duration: 0.4s;
+    border: 0cm black;
+    cursor: pointer;
+    
+}
+
+.buttom:hover{
+    background-color: #ffffff;
+    color: black;
+}
+
+.buttom.box1:hover {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+  
+.info{
+    background-color: rgb(216, 216, 216);
+    height: fit-content;
+    flex-direction: row;
+    display: flex;
+    height: 600px;
+}
+
+.box1{
+    background-color: rgb(194, 228, 228);
+    width: 650px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.box2{
+    background-color: rgb(247, 201, 235);
+    width: 650px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  
+}
+
+
+.box3{
+    background-color: rgb(243, 250, 206);
+    width: 650px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.footer{
+    border: 1px solid black;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+}
+
+body{
+    height: 1000px;
+}
